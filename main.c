@@ -1,12 +1,12 @@
 #include<stdio.h>
 
 int main() {
-    int a;
-    scanf("%d",&a);
-    if(a%2==0) {
-        printf("%d e' pari\n:",a);
-    }else {
-        printf("%d e' dispri\n: ",a);
-    }
+    int num;
+    printf("inserisci il numero:");
+    scanf("%d",&num);
+    if(num>=0)
+        printf("il numero %d e' positivo",num);
+    else
+        printf("il numero %d e' negativo",num);
     return 0;
 }
